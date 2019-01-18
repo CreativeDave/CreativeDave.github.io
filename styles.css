@@ -1,0 +1,42 @@
+body {
+	font-family: 'Montserrat', serif;
+	text-align: center;
+}
+
+
+
+.navbar {
+    margin-top: 0px;
+	margin-bottom: 80px;
+	
+}
+
+.welcome {
+	text-align: left;
+}
+
+.jumbotron{
+    height: 100vh;
+	margin-bottom: 0px;
+	background-image: url("./img/img_20011.jpg");
+	background-size: cover;
+	font-family: 'Montserrat', serif;
+	text-shadow: 1px 1px 8px #aaa;
+	
+}
+
+.highlight {
+	color: #FF3A61;
+	text-shadow: 0px 0px 1px #aaa;
+}
+
+
+nav {
+      border-bottom: 3px solid #04C2C9;
+}
+
+.nav-item {
+	padding-left: 2em;
+}
+
+
