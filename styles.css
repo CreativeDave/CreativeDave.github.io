@@ -18,8 +18,6 @@ body {
 .jumbotron{
     height: 100vh;
 	margin-bottom: 0px;
-	background-image: url("./img/img_20011.jpg");
-	background-size: cover;
 	font-family: 'Montserrat', serif;
 	text-shadow: 1px 1px 8px #aaa;
 	
