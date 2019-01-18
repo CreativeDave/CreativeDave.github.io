@@ -1,57 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-		<title>David Wilson</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <head>
+    <!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!--googlefont -->
+		<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Montserrat">
+    <!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+		<title>Hello, world!</title>
 	</head>
 	<body>
 
-		<nav class="navbar navbar-light" style="background-color: #e3f2fd;" id="home">
-			<div class="container-fluid position-fixed">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>                        
-					</button>
-					<a class="navbar-brand" href="#">Website</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav">
-						<li class="nav-item active"><a href="#home">Home</a></li>
-						<li><a href="#">Bio</a></li>
-						<li><a href="#skills">Skills & Certifications</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>	
-					<ul class="nav navbar-nav navbar-right">
-					</ul>
-				</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+	<!--HOME -->
+		<div class="jumbotron">
+			<div class="welcome h-75 d-inline-block">
+				<h1 class="display-5 "><br><br><br><br><br>Hello, I'm <span class="highlight"> David Wilson.</span><br> I'm a software engineering student</h1>
 			</div>
+				<h2 class="lead"> </h2>
+				<hr class="my-4 py-4">
+				<a class="btn btn-primary btn-lg" href="#about" role="button">View my work</a>
+		</div>
+   
+<!-- Navbar -->
+
+		<nav class="navbar sticky-top navbar navbar-expand-lg navbar-dark px-4" style="background-color:#09173A" id="nav">
+			<a class="navbar-brand" href="#">Home</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+				<span class="navbar-text">
+					<a href="https://linkedin.com/in/david-wilson-a8773116a">Linkedin</a>
+					<a href="https://github.com/CreativeDave">GitHub</a>
+				</span>
+			</div>
+			<div class="holder" id="about"></div>
 		</nav>
 
-		<div class="jumbotron jumbotron-fluid"  style="background-color: #e3f2fd;">
-			<div class="container text-center">
-				<h1 class="display-4">David L Wilson</h1>
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<a href="https://linkedin.com/in/david-wilson-a8773116a">Linkedin</a>
-						</div>
-						<div class="col">
-							<a href="https://github.com/CreativeDave">GitHub</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+<!--About-->
 
-		<div class="container-fluid bg-3 text-center" id="skills">    
-			<h3>Skills & Certifications</h3><br>
+
+<div class="container-fluid bg-3 text-center">    
+			<h1 class="display-5 about">About</h1><br>
 			<div class="row">
 				<div class="col-sm-3">
 					<h4>The Tech Academy Python Bootcamp</h4>
@@ -98,3 +112,5 @@
 		</footer>
 	</body>
 </html>
+
+
